@@ -5,16 +5,24 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprite>sprites\spr_ufo</sprite>
+  </sprites>
   <backgrounds name="background">
     <background>background\bg_menu</background>
+    <background>background\bg_scroll</background>
   </backgrounds>
-  <paths name="paths"/>
+  <paths name="paths">
+    <path>paths\pth_ufo</path>
+  </paths>
   <fonts name="fonts">
     <font>fonts\fnt_title</font>
   </fonts>
+  <objects name="objects">
+    <object>objects\obj_ufo</object>
+  </objects>
   <rooms name="rooms">
-    <room>rooms\rm_menu</room>
+    <room>rooms\rm_scroll</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
